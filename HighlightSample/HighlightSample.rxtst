@@ -1,0 +1,44 @@
+﻿<testsuite
+name="HighlightSample"
+rxversion="5.4.2.25689"
+id="3226627c-b957-4650-8473-715500717fde"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="886a7567-c180-4654-921a-6075df8446e6">
+			<testmodule
+			name="Recording1"
+			id="0a50b3c2-3079-46c2-a169-3f6a6df9042b"
+			ref="e4e19c4a-beeb-45e7-8112-8b1842604cb2"
+			type="Recording">
+				<description>
+					PLEASE NOTE YOU MUST REFERENCE RANOREX.CONTROLS dll
+				</description>
+			</testmodule>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="886a7567-c180-4654-921a-6075df8446e6"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references>
+		<reference>
+			Ranorex.Controls.dll
+		</reference>
+	</references>
+</testsuite>

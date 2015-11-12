@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.2.25689"
+id="e4e19c4a-beeb-45e7-8112-8b1842604cb2"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="HighlightSample"/>
+	<variables/>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="False"
+		browser="IE"
+		args=""
+		maximized="False"
+		incognito="False"
+		clearcache="False">
+			<comment/>
+			<bindings/>
+			<url>
+				http://www.ranorex.com
+			</url>
+		</openwebsiterecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="HighlightElement"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="54084141-04ed-44d9-a888-ccbf964f65d0"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="HighlightSampleRepository"
+	id="00f43fca-d358-41e5-98e5-bf9c054bc7fa"
+	rxversion="5.4.2.25689"
+	relativepath="HighlightSampleRepository.rxrep">
+		<codegen
+		classname="HighlightSampleRepository"
+		namespace="HighlightSample"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="c7483afe-5891-438a-980a-2fa13049d6ef"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\..\..\..\..\..\..\Program Files (x86)\Ranorex 4.0\Bin\Ranorex.Controls.dll
+		</reference>
+	</references>
+</recordtable>

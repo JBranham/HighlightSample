@@ -1,0 +1,57 @@
+﻿<repository
+name="HighlightSampleRepository"
+id="00f43fca-d358-41e5-98e5-bf9c054bc7fa"
+rxversion="5.4.2.25689">
+	<codegen
+	classname="HighlightSampleRepository"
+	namespace="HighlightSample"/>
+	<rootfolder
+	name="Root"
+	id="c7483afe-5891-438a-980a-2fa13049d6ef"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Calculator"
+		id="b2a11d3f-5b5e-4b5c-ada2-0b62b910a0e4"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Calculator']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="View"
+			id="ff14cfaa-c286-4537-9eaf-fcd8966657fe"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/form[@title='Calculator']/menubar[@accessiblename='Application']/menuitem[@accessiblename='View']"
+			addcaps="menuitem,accessible"
+			refimgid="6f75b532-b0d0-49ab-ad0f-776a190e647c">
+				/form[@title='Calculator']/?/?/menuitem[@accessiblename='View']
+			</item>
+			<basepath>
+				/form[@title='Calculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKHSURBVDhPdZP7S1NhGMfX39UvpZVZZEFFhBBR
+VCASmd2JjAQlEG/NrJB5Y87bHEkZS2sXFbfp5jYzsaHnss1Nl+5sO2c7m2d+e8/ZZD8ce+DL9/3l
++3me57zn1RxWvWml+YFxhbs/7kfNqA93DV7c0ntwY2AJ1b0uXOtx4MrHOVzSWpiq9ulnxVip6iZ+
+ceyegPWdFAJE9G4GQU4EGxdBkfOfmIDVaBK/iS60fGOKsVKR7jD5wpAmK5E3Hj9aphPQLwVx/u1X
+FGOlkkef8G1ByOWxnz9AUswjkpQQ+JuDJyzCRmXAZyUMulica/qsBtSO+WEkgDQBCLkDxHgJ1N4+
+/JEs5pkMzIE0UqKEfgI4+2ZCDagZ8WHcW5ggns6T/fextpODKyjix0Yak2sCmUpCn4tBRcOYGnBv
+2KsA5C48gSjK5pEiY8uSw4mMhF4ngzMvDWrAHcMyRgmgxxlC9zyL90Rdswy0szQ6bTQ6rBTarZvQ
+ORicfq5XA26TO6fjWbjCadhonigFK52EhUrAspkga3CYWt+Fi03g1JMBNeDmoBsbBFA74sZ8kFfc
+cehsUnFzIA4nk0D5oz41QP7jVnZEssY29O4ohjxRGDwRDBdlXI5ghkyxGEyi7KFODajuW8RCSECb
+LYTdWAytVlZxrb3gQ0shcJ3H4I8KRwOu65ywMAIapxm8mKLw2kyjaYZBy08GHTYGI+4tJDo1WN1O
+Hw2QH8s0xePpFK10rP9CKd5gLrjOUZjAF/0P4OqnOc7KkhXsIbSSNTpmQ9DOhfBhIYweR5h8ly3Y
+GR7eiICTdTquGCvV5W5788V3Fq6q7bvyWCobTah4NarcefnjfqWrLDlcVqdrLqQ0mn9X3WpZlq3T
+HgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>
